@@ -1,0 +1,111 @@
+    .swiperBody {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    html,
+    body {
+        position: relative;
+        height: 100%;
+        background: rgb(60, 59, 63);
+        background: linear-gradient(41deg, rgba(60, 59, 63, 1) 0%, rgba(11, 11, 62, 1) 65%, rgba(27, 122, 142, 1) 100%);
+        font-family: "Dosis", sans-serif;
+    }
+
+    swiper-container {
+        width: 360px;
+        height: 420px;
+    }
+
+    swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        color: #fff;
+        font-family: "Dosis", sans-serif;
+    }
+
+    swiper-slide:nth-child(1n) {
+        background-color: rgb(72, 51, 123);
+    }
+
+    swiper-slide:nth-child(2n) {
+        background-color: rgb(0, 140, 255);
+    }
+
+    swiper-slide:nth-child(3n) {
+        background-color: rgb(10, 184, 111);
+    }
+
+    swiper-slide:nth-child(4n) {
+        background-color: rgb(211, 122, 7);
+    }
+
+    swiper-slide:nth-child(5n) {
+        background-color: rgb(118, 163, 12);
+    }
+
+    swiper-slide:nth-child(6n) {
+        background-color: rgb(180, 10, 47);
+    }
+
+    swiper-slide:nth-child(7n) {
+        background-color: rgb(35, 99, 19);
+    }
+
+    swiper-slide:nth-child(8n) {
+        background-color: rgb(0, 68, 255);
+    }
+
+    swiper-slide:nth-child(9n) {
+        background-color: rgb(218, 12, 218);
+    }
+
+    swiper-slide:nth-child(10n) {
+        background-color: rgb(54, 94, 77);
+    }
+
+    .imgSwipper {
+        border-radius: 18px;
+        background-color: transparent;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .titulo-llamativo {
+        text-align: center;
+        margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+        animation: fade-in 1.5s ease-out; /* Animación de entrada */
+      }
+      
+      .titulo-llamativo h1 {
+        font-family: "Dosis", sans-serif;
+        font-size: 3rem;
+        color: #fff; /* Color del texto */
+      }
+      
+      .titulo-llamativo p {
+        font-family: "Dosis", sans-serif;
+        font-size: 1.2rem;
+        color: #fff; /* Color del texto */
+      }
+      
+      /* Animación de entrada */
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
